@@ -1,0 +1,459 @@
+body{
+    
+}
+.nab{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15, 15, 15);
+    padding: 20px;
+}
+.btn{
+   font-size:18px; 
+   background-color: rgb(95, 145, 45);
+    text-decoration: none;
+    height: 30px;
+    width: 90px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;  
+}
+.btn:hover{
+    background-color: rgb(95, 145, 45);
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+/*-------
+head ses----*/
+
+.car{
+    background-image: url("images/car-1.png.crdownload");
+     background-repeat: no-repeat;
+     background-size: cover;
+    height: 1100px;
+    width: 1600px;
+    position: absolute; 
+}
+.middle{
+      position: relative;
+      text-align: center;
+      margin-top: 400px;
+      color: white; 
+}
+.middle p{
+    font-weight: bolder;
+    font-size: 22px;
+}
+.middle h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.exerpert{  
+}
+.exerpert a{
+    text-decoration: none;
+    background-color: rgb(190, 61, 14);
+    color: blanchedalmond;
+    font-weight: bolder;
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 50px;
+   width: 20px;
+}
+.exerpert a:hover{
+    background-color: white;
+    color: black;
+}
+
+/*---------background
+---------------*/
+.para{
+       height:300px;
+       width: 100%;
+       margin-top: 400px;
+       text-align: center;
+       padding: 100px;  
+}
+.para p{
+    font-weight: bolder;
+    font-size: 22px;
+}
+.para h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+/*------
+card soro------*/
+.card-container{
+         display: grid;
+         grid-template-columns: repeat(3,1fr);
+         grid-gap:5px;
+     }
+.card{
+    height: 350px;
+    width: 400px;
+    position: relative;
+    border: 1px solid bisque;
+    margin-bottom: 20px;
+}
+.card img{
+          width: 100%;
+          height: 400px;
+          margin: 0px 60px 0px 60px;
+          position: relative;
+          top: -50px;
+          grid-gap:10px;
+          grid-row-gap:10px;
+          grid-column-gap:10px;
+      }
+      .card img:hover{
+        background-color: rgb(51, 44, 44);
+      }
+     .p{
+       color: blanchedalmond;
+       position: relative;
+     }
+ /*card ses*/
+ .element-1{
+    top: 1200px;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-color: cadetblue;
+   
+}
+.element-1 p{
+        margin-top: 200px;
+       font-size: 18px;
+       font-weight: 30px; 
+   }
+   .element-1 h1{
+      font-size: 40px;
+   }
+   .element-1 .para-2{
+         margin-top: 40px;
+        }
+ /*oporer part ses*/
+
+     .container-2{
+             display: flex;
+             text-align: center;
+             height: 200px;
+             padding: 60PX 200PX;
+             position: relative;
+             bottom: 150px;      
+      }
+  .card-3{
+      display: flex;
+      margin: 0 auto;
+     border: 1px solid;
+     padding: 10px;
+  }
+  .card-3 i{
+      font-size: 25px;
+      margin-top: 20px;
+  }
+  
+  /*-----card ses----*/
+     .card-5{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap:5px;
+         height: 600px;
+         width: 100%;
+         background-color: rgb(196, 193, 193);
+         position: relative;      
+     }
+      .icon-5{
+          display: flex;
+          height: 300px;  
+          width: 100%;
+          padding: 40px 90px;
+       }
+/*------card 5 kaj ses------*/
+   .icon-6{
+       height: 300px;
+       width: 100%;
+       background-color: rgb(77, 70, 70);
+       color: white;
+        text-align: center;
+       padding: 90px 0px;
+    }
+    .icon-6 i{
+        font-size: 90px;
+        background-color:white;
+        color: rgb(70, 68, 68);
+        border-radius: 50%;
+    }
+    .icon-6 p{
+        font-size: 18px;
+    }
+    .icon-6 h1{
+        font-size: 45px;
+    }
+
+/*------
+card-6 kaj ses------*/
+         
+      .possible{
+          height: 900px;
+          width: 100%;
+          background-color: rgb(144, 155, 96);    
+      }
+      .middle-7{
+          text-align: center;
+          padding: 90px 0px;
+      }
+  .middle-7 img{
+   height: 100px;
+   width: 100px;
+  }
+  .middle-7 h1{
+    font-size: 45px;
+  }
+  .middle-7 p{
+    font-size: 18px; 
+  }
+   .star-1{
+       font-size: 44px;
+       color: rgb(255, 165, 0);
+   }
+   .left-side{
+       height: 150px;
+       width: 400px;
+      background-color: palegreen;
+      position: absolute;
+      z-index: 1;
+      border-radius: 5px;
+      left: 300px;
+      padding: 10x 5px;
+   }
+   .left-side .second-time img{
+         height: 100px;
+         width: 100px;
+         margin-top: 50px;
+         border-radius: 50%;
+         display: flex;
+   }
+   .left-side .second-time p{
+       margin-top: -40px;
+   }
+   .right-side{
+      background-color: pink;
+      height: 100px;
+       width: 400px;
+      position: relative;
+      left: 150px;
+       top: 40px;
+       z-index: 2;
+       border-radius: 5px;
+         padding: 30px 10px;   
+   }
+   .right-side .second-time img{
+    height: 100px;
+    width: 100px;
+    top: 500px;
+    border-radius: 50px;
+    display: flex;
+    margin-top: 50px;
+   }
+   .right-side .second-time p{
+  
+         margin-top: -100px;
+   }
+   .container-2{
+       text-align: center;
+       margin: 0 auto;
+       align-items: center;
+       justify-content: center;
+   }
+   /*------possibillity ses-----*/
+   .element-5{
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    color: rgb(119, 74, 74); 
+}
+.element-5 p{
+       font-size: 18px;
+       font-weight: 30px; 
+   }
+   .element-5 h1{
+      font-size: 40px;
+   }
+   .element-5 .para-5{
+        }
+        .end-off{
+              background-image: url("images/car-1.png.crdownload");
+               background-repeat: no-repeat; 
+               background-size: cover;
+            }
+            .para-9{
+                     
+                     justify-content: center;
+                     align-items: center;
+                     margin: 0 auto;
+                     border: 1px solid black;
+                     height: 45px;
+                     width: 250px;
+                     padding: 0px 50px;
+                      margin-top: 20px;
+                     color: white;
+                     background-color: coral;
+            }
+            .para-9:hover{
+                  background-color: rgb(226, 126, 55);
+                  color: white;
+            }
+
+
+@media only screen and (max-width:600px){
+    .car{
+        background-image: url("images/car-1.png.crdownload");
+         background-repeat: no-repeat;
+         background-size: cover;
+         height: 400px;
+         width: 500px;   
+    }
+    .middle{
+        position:absolute;
+        color: blue; 
+        margin-top: 100px;
+        
+  }
+  .middle p{
+      position:relative;
+      font-weight: 5px;
+      font-size: 22px;
+      margin-top: 5px;
+  }
+  .middle h1{
+      font-size: 12px;
+      font-weight: 16px;
+      position: relative;
+  }
+  .exerpert{  
+  }
+  .exerpert a{
+      text-decoration: none;
+      background-color: rgb(190, 61, 14);
+      color: blanchedalmond;
+      font-weight: 5px;
+      border: 1px solid;
+      padding: 4px;
+      border-radius: 50px;
+     width: 5px;
+  }
+  .exerpert a:hover{
+      background-color: white;
+      color: black;
+    }
+    .card{
+       
+        height: 400px;
+        margin: 2px;
+        position: relative;
+        border: 1px solid bisque;
+        margin-bottom: 10px;
+        display: block;
+    }
+    .card img{
+              
+              height: 400px;
+              margin: 0px 60px 0px 60px;
+              position: relative;
+              grid-row: grid;
+          }
+          .card img:hover{
+            background-color: rgb(51, 44, 44);
+          }
+         .p{
+           color: blanchedalmond;
+           position: relative;}
+           .element-1{
+            top: 1200px;
+            height: 300px;
+            text-align: center;
+            background-color: cadetblue;
+           
+        }
+        .element-1 p{
+                margin-top: 100px;
+               font-size: 18px;
+               font-weight: 30px; 
+           }
+           .element-1 h1{
+              font-size: 9px;
+           }
+           .element-1 .para-2{
+                 margin-top: 40px;}
+
+                 .card-5{
+                    display: grid;
+                    grid-template-columns: repeat(3,1fr);
+                     height: 600px;
+                     background-color: rgb(196, 193, 193);
+                     position: relative;      
+                 }
+                  .icon-5{
+                      display: grid;
+                      height: 250px;  
+                      padding: 5px 5px;
+                   }
+                   .left-side{
+                    height: 200px;
+                    width: 100px;
+                   background-color: palegreen;
+                   position: absolute;
+                   z-index: 1;
+                   border-radius: 5px;
+                   left: 300px;
+                   padding: 5x 5px;
+                }
+                .left-side .second-time img{
+                      height: 50px;
+                      width: 50px;
+                      margin-top: 20px;
+                      border-radius: 50%;
+                      display: flex;
+                }
+                .left-side .second-time p{
+                    margin-top: -10px;
+                }
+                .right-side{
+                   background-color: pink;
+                   height: 200px;
+                    width: 
+                    100px;
+                   position: relative;
+                   left: 190px;
+                    top: 20px;
+                    z-index: 2;
+                    border-radius: 5px;
+                      padding: 10px 5px;   
+                }
+                .right-side .second-time img{
+                 height: 50px;
+                 width: 50px;
+                 top: 500px;
+                 border-radius: 50px;
+                 display: flex;
+                 margin-top: 50px;
+                }
+                .right-side .second-time p{
+                      font-size: 2px;
+                      margin-top: -100px;
+                }
+              
+                }
+
+                   
+
+
+}
+
+

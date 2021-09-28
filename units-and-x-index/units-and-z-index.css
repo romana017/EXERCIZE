@@ -1,0 +1,55 @@
+
+.heading-element{
+    font-size: 3px;
+}
+
+.heading-1{
+    font-size:10em;
+}
+
+.heading-2{
+
+    font-size: 10rem;
+
+}
+
+.heading-3{
+
+}
+
+.heading-element2{
+
+}
+
+
+.heading-4{
+    font-size:10em;  
+}
+
+/* .box2{
+    background: chartreuse;
+    width:100vw ;
+    height:100vh ;
+    margin: 20px;
+} */
+
+.box1{
+    background: coral;
+    width:300px;
+    height: 300px;
+    position:absolute;
+
+    z-index:20;
+    
+}
+
+.box2{
+    background: cornflowerblue;
+    width:300px;
+    height: 300px;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    z-index: 30;
+
+}

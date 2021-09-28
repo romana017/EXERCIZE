@@ -1,0 +1,133 @@
+
+        body{
+          margin: 0px 0px;
+          height: 30%;
+          width: 100%;
+        }
+        .sectio1{
+          margin-bottom: 150px;
+        }
+.company-name{
+  margin-left: 200px;
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(31, 19, 19);
+  letter-spacing: 2px;
+}
+     .apple a{
+      text-decoration: none;
+      padding: 20px 60px ;
+      margin: 5px 10px;
+      font-size:18px ;
+      font-weight:bolder;
+      background-color: black;
+      color: blanchedalmond;
+     }
+.use-bagground{
+  background-image: url("images/blur-bg.jpg");
+  width: 100%;
+  height: 400px;
+}
+.section-2{
+  margin: 0px 200px;
+}
+.box{
+  width: 800px;
+  background:#ffffff;
+  color: #444;
+  padding: 60px 200px;
+  box-shadow: 3px 3px 3px 3px gray;
+  position: relative;
+  bottom: 300px;
+}
+.regular-btn{
+  background: black;
+  color: white;
+  padding: 15px;
+  font-size: 22px;
+  width: 180px;
+  border-radius: 2px;
+}
+.section-3{
+  background: black;
+  bottom: 300px;
+  position: relative;
+}
+.section-3 .items{
+  height: 300px;
+  margin-left: 200px;    
+  display: grid;
+  grid-template-columns:repeat(4, 1fr);
+  color: white;
+}
+.item{
+  line-height: 40px;
+}
+.item a{
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.item-4{
+    line-height: 40px;
+    word-spacing: 20px; 
+}
+ .item-4 i{
+  border: 1px solid grey;
+   padding: 15px 15px;
+   border-radius: 50%;
+   background-color: #ffffff;
+ }
+ @media only screen and (max-width:600px){
+  body{
+    margin: 0px 0px;
+  }
+  .sectio1{
+    margin-bottom: 150px;
+  }
+  .section-2{
+    margin: 0px 20px;}
+    .box{
+      width: 800px;
+      background:#ffffff;
+      color: #444;
+      padding: 60px 200px;
+      box-shadow: 3px 3px 3px 3px gray;
+      position: relative;
+      bottom: 300px;
+    }box{
+      
+      width: 500px;}
+      .apple a{
+        padding: 5px 20px ;
+        margin: 5px 5px;
+        font-size:12px;
+      }
+      .item{
+        line-height: 10px;
+        display: block;
+      }
+      .item a{
+       
+        font-size: 12px;
+        text-decoration: none;
+        text-transform: capitalize;
+        display: block;
+      }
+      .item-4{
+          line-height: 20px;
+          word-spacing: 15px; 
+          display: block;
+      }
+       .item-4 i{
+        border: 1px solid grey;
+         padding: 5px 5px;
+         border-radius: 50%;
+        
+       }
+
+
+
+ }
+ 
